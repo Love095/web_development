@@ -32,19 +32,19 @@
 	box-sizing: border-box;
 }
 .rwindow1 {
-	position: absolute;
+	
 	left: 70px;
 	top: 112px;
 
 }
 .rwindow2 {
-	position: absolute;
+	
 	left: 520px;
 	top: 112px;
 }
 
 .rwindow3 {
-	position: absolute;
+	
 	left: 970px;
 	top: 112px;
 }
@@ -62,7 +62,7 @@ left: 73px;
 top: 209px;
 
 }
-.rep1 {position: absolute;
+.rep1 {
 width: 334px;
 height: 670px;
 left: 103px;
@@ -71,7 +71,7 @@ top: 209px;}
 h1
 {
 font-family: helvetica;
-position: absolute;
+
 left: 20px;
 top: 20px;
 

@@ -1,6 +1,7 @@
 * {
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box
 }
 
 body {
@@ -43,7 +44,7 @@ body {
 	align-items: center;
     justify-content: center;
     font-family: 'Manrope', sans-serif;
-    font-size: 10px;
+    font-size: 15px;
     font-weight: lighter;
 
 }
@@ -204,6 +205,7 @@ a {
 }
 .links a {
 	color: blue;
+	
 }
 
 .footer-container {
@@ -232,5 +234,3 @@ footer:nth-child(3) {
 	width: 40px;
 	height: 40px;
 }
-
-

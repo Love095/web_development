@@ -2,32 +2,35 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font: inherit; 
+}
+
+html { 
+	font-size: 62.5%
 }
 
 body  {
 	font-family: Helvetica;
+	font-size: 1.6rem;
+	line-height: 2.3rem;
 }
 
-.header {
+.header, .footer {
 	background-color: red;
-	width: 100%;
-	height: 60px;
-	color:white;
+	height: 6rem;
+	color: white;
 	display: flex;
 	align-items: center;
 }
 .main {
 	border: 2px solid red;
-	align-content: center;
 	text-align: center;
-	font-size: 0px;
+	font-size: 0rem;
 }
 
 h1 {
 
-	font-size: 20px;
-	line-height: 23px;
-	margin-left: 15px;
+	margin-left: 1.5rem;
 }
 
 
@@ -38,25 +41,24 @@ h3 {
 }
 
 
-.reciept-one, .reciept-two, .reciept-three {
-	font-size: 16px;
+.column {
 	text-align: left;
 	border: 3px solid yellow;
-	border-radius: 15px;
-	width: 350px;
+	border-radius: 1.5rem;
+	width: 35rem;
 	display: inline-block;
-	padding: 30px;
+	padding: 3rem;
 	
 }
 
-.reciept-two {
-	margin: 85px;
+.column-two {
+	margin: 8.5rem;
 
 }
 
 
-.TART, .ACREAM, .CCREAM {
-	margin-top: 15px;
+ul {
+	margin-top: 1.5rem;
 }
 
 li {
@@ -64,12 +66,4 @@ li {
 	list-style-type: none;
 }
 
-.footer {
-	background-color: red;
-	width: 100%;
-	height: 60px;
-	color:white;
-	display: flex;
-	align-items: center;
-
-}
+s

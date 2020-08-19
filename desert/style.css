@@ -9,6 +9,11 @@ html {
 	font-size: 62.5%
 }
 
+:root {
+  --color-primary: red;
+  --color-secondary: yellow;
+}
+
 body  {
 	font-family: Helvetica;
 	font-size: 1.6rem;
@@ -16,7 +21,7 @@ body  {
 }
 
 .header, .footer {
-	background-color: red;
+	background-color: var(--color-primary);
 	height: 6rem;
 	color: white;
 	display: flex;
@@ -25,14 +30,16 @@ body  {
 .main {
 	border: 2px solid red;
 	text-align: center;
-	font-size: 0rem;
+	
 }
 
 h1 {
 
 	margin-left: 1.5rem;
 }
-
+h2 {
+	font-weight: bolder;
+}
 
 
 h3 {
@@ -43,7 +50,7 @@ h3 {
 
 .column {
 	text-align: left;
-	border: 3px solid yellow;
+	border: 3px solid var(--color-secondary);
 	border-radius: 1.5rem;
 	width: 35rem;
 	display: inline-block;
@@ -66,4 +73,3 @@ li {
 	list-style-type: none;
 }
 
-s

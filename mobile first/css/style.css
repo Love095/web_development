@@ -19,14 +19,15 @@ body {
 
 }
 
-footer{
-	position: relative;
+footer {
+	/*position: relative;*/
 }
 
 .feed, .copyright {
-	position: absolute;
-	top: 2rem;
+	/*position: absolute;*/
+	/*top: 2rem;*/
 	padding-left: 1rem;
+	padding-top: 1rem;
 }
 
 .content {
@@ -52,6 +53,11 @@ p {
 	font-size: 35px;
 }
 
+@media screen and (min-width: 736px) {
+	.content {
+		flex-wrap: wrap;
+	}
+}
 
 
 

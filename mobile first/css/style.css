@@ -19,9 +19,6 @@ body {
 
 }
 
-footer {
-	/*position: relative;*/
-}
 
 .feed, .copyright {
 	/*position: absolute;*/
@@ -47,6 +44,7 @@ footer {
 	display: flex;
 	align-items: center;
 	text-align: center;
+	justify-content: center;
 }
 
 p {

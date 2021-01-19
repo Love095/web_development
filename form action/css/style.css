@@ -1,0 +1,188 @@
+
+@keyframes slideInFromTop {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 100%;
+  }
+}
+
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(120%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 100%;
+  }
+}
+
+@keyframes Opacity {
+  0% {
+    
+    opacity: 0;
+  }
+  100% {
+    
+    opacity: 100%;
+  }
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Archivo-Narrow-Bold-Italic', Arial, sans-serif;
+    font-size: 1.5em;
+    line-height: 2em;
+    color: #dff6f8;
+    
+
+}
+.header {
+	width: 100%;
+	background: #090f09;
+	opacity: 0.4;
+	height: 8rem;
+	position: fixed;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 1;
+
+
+	
+
+}
+
+.main {
+	height: 80vw;
+	display: flex;
+	flex-direction: column;
+	background: url(..//pics/bggif.gif);
+}
+
+
+
+
+
+
+
+ h1 {
+ 	
+ 	padding: 1rem;
+    font-weight: lighter;
+    font-style: italic;
+    text-decoration: underline;
+    color: #dff6f8;
+   
+  
+    
+}
+
+h2 {
+	color: #00f;
+
+}
+
+ .menu {
+ 	
+ animation: 1s ease-out 0s 1 slideInFromTop;
+	
+  
+	
+}
+
+
+
+.gradient {
+	
+	height: 100%;
+	background: linear-gradient(to bottom, rgba(100,50,100,0.1), rgba(0,0,0,1));
+	mix-blend-mode: multiply;
+	}
+
+	
+.form-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: -45rem ;
+	z-index: 1;
+
+
+}
+
+form {
+	width: 80%;
+	margin: auto;
+}
+
+input, textarea {
+display: block;
+width: 90%;
+background: #c0c2ba;
+color: lightgrey;
+}
+
+input {
+	height: 3em;
+}
+
+label {
+	line-height: 3em;
+	font: 1em sans-serif;
+}
+
+textarea {
+	height: 8em;
+}
+
+input[type="submit"]{
+	background-color: #090f09;
+	color: lightgrey;
+	height: 5em;
+	cursor:pointer;
+}
+
+input[type="submit"]:hover{
+	background-color: #00f;
+}
+
+.footer-container {
+	
+	align-items: center;
+	justify-content: center;
+	
+	background-color: #000;
+	
+}
+.footer {
+	
+	text-align: center;
+	font-size: 10px;
+	
+	color: #C0C0C0;
+	
+	
+    
+	
+}
+footer:nth-child(3) {
+	font-style: italic;
+}
+
+.footer img {
+	
+	width: 40px;
+	height: 40px;
+}
